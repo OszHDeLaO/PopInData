@@ -63,7 +63,7 @@ plt.legend(title='Event Category')
 plt.grid(True)
 plt.show()
 
-!pip install matplotlib seaborn pandas
+#!pip install matplotlib seaborn pandas
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -104,7 +104,7 @@ ax2.legend(title='Event Category', loc='upper right')
 plt.tight_layout()  # Adjust layout to prevent overlapping labels
 plt.show()
 
-!pip install matplotlib seaborn pandas
+#!pip install matplotlib seaborn pandas
 
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -132,7 +132,7 @@ plt.xlabel('Event Type', size=12)
 plt.ylabel('Count', size=12)
 plt.show()
 
-!pip install matplotlib seaborn pandas
+#!pip install matplotlib seaborn pandas
 
 import pandas as pd
 import matplotlib.pyplot as plt
