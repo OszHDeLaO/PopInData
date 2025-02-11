@@ -165,7 +165,7 @@ plt.show()
 import string
 string.punctuation
 
-!pip install emoji
+#!pip install emoji
 import pandas as pd
 import string
 import re
