@@ -240,7 +240,7 @@ import seaborn as sns
 _df_0.groupby('Event Name').size().plot(kind='barh', color=sns.palettes.mpl_palette('Dark2'))
 plt.gca().spines[['top', 'right',]].set_visible(False)
 
-!pip install folium
+#!pip install folium
 import folium
 import pandas as pd
 
@@ -275,7 +275,7 @@ toronto_map.save('toronto_events_map.html')
 # Display the map in the notebook
 toronto_map
 
-!pip install folium geopy
+#!pip install folium geopy
 import folium
 import pandas as pd
 import re
