@@ -10,8 +10,8 @@ import numpy as np # linear algebra
 import pandas as pd # data manipulation and analysis
 #import matplotlib.pyplot as plt # data visualization
 #import seaborn as sns # data visualization
-sns.set_style('whitegrid') # set style for visualization
-import warnings # ignore warnings
+#sns.set_style('whitegrid') # set style for visualization
+#import warnings # ignore warnings
 warnings.filterwarnings('ignore')
 df = pd.read_csv('MeetUp_PopIn_Events.csv')
 
