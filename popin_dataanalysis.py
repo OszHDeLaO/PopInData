@@ -16,10 +16,10 @@ import pandas as pd # data manipulation and analysis
 df = pd.read_csv('MeetUp_PopIn_Events.csv')
 
 #plt.figure(figsize=(10,6))
-sns.countplot(x='Category', data=df)  # Changed 'Attendees' to 'Category'
-plt.title('Attendees by Event Category', size=18)
-plt.xlabel('Category', size=14)
-plt.show()
+#sns.countplot(x='Category', data=df)  # Changed 'Attendees' to 'Category'
+#plt.title('Attendees by Event Category', size=18)
+#plt.xlabel('Category', size=14)
+#plt.show()
 
 
 
