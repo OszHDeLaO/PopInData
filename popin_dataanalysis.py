@@ -27,7 +27,7 @@ df = pd.read_csv('MeetUp_PopIn_Events.csv')
 
 import pandas as pd
 #import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 
 # Load the CSV file (replace with the correct path/URL)
 df = pd.read_csv('MeetUp_PopIn_Events.csv')
